@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import type { NextPage } from 'next'
+import Wrapper from '@components/Wrapper'
 
 const HomeStyled = styled.div`
   h1 {
@@ -9,10 +10,16 @@ const HomeStyled = styled.div`
   }
 `
 
-const Home: NextPage = () => {
+type Props = {
+  token?: string
+}
+
+const Home: NextPage<Props> = () => {
   return (
     <HomeStyled>
-      <h1>Hello</h1>
+      <Wrapper>
+        <h1>Hello</h1>
+      </Wrapper>
     </HomeStyled>
   )
 }
