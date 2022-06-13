@@ -5,6 +5,7 @@ import Banner from '@components/Banner'
 import FeaturedProducts from '@components/FeaturedProducts'
 import PromoList from '@components/PromoList'
 import NewProducts from '@components/NewProducts'
+import BrandList from '@components/BrandList'
 
 const HomeStyled = styled.div`
 
@@ -21,6 +22,7 @@ const Home: NextPage<Props> = () => {
       <FeaturedProducts />
       <PromoList />
       <NewProducts />
+      <BrandList />
     </HomeStyled>
   )
 }

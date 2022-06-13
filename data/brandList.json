@@ -1,0 +1,62 @@
+[
+  {
+    "id": "001",
+    "title": "Bolt Agro",
+    "image": "/images/brands/logoBolt.png"
+  },
+  {
+    "id": "002",
+    "title": "Hoces Germany",
+    "image": "/images/brands/logoGermany.png"
+  },
+  {
+    "id": "003",
+    "title": "Gavilán",
+    "image": "/images/brands/logoGavilan.png"
+  },
+  {
+    "id": "004",
+    "title": "Incolma",
+    "image": "/images/brands/logoIncolma.png"
+  },
+  {
+    "id": "005",
+    "title": "Colima",
+    "image": "/images/brands/logoColima.png"
+  },
+  {
+    "id": "006",
+    "title": "Abro",
+    "image": "/images/brands/logoAbro.png"
+  },
+  {
+    "id": "007",
+    "title": "Norton",
+    "image": "/images/brands/logoNorton.png"
+  },
+  {
+    "id": "008",
+    "title": "Saint-Gobain",
+    "image": "/images/brands/logoSaintGobain.png"
+  },
+  {
+    "id": "009",
+    "title": "Caribe",
+    "image": "/images/brands/logoCaribe.png"
+  },
+  {
+    "id": "010",
+    "title": "TekBond",
+    "image": "/images/brands/logoTekbond.png"
+  },
+  {
+    "id": "011",
+    "title": "PractiAgro",
+    "image": "/images/brands/logoPractiagro.png"
+  },
+  {
+    "id": "012",
+    "title": "Agrimix",
+    "image": "/images/brands/logoAgrimix.png"
+  }
+]
