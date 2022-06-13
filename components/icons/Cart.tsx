@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 const Cart = ({ ...props }) => {
   return (
     <svg

@@ -1,5 +1,3 @@
-
-
 const Close = ({ ...props }) => {
   return (
     <svg

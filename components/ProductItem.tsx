@@ -51,7 +51,14 @@ const ProductItemStyled = styled.article`
     justify-self: center;
 
     path {
-      stroke: ${({ theme }) => theme.colors.secundary};
+      stroke: ${({ theme }) => theme.colors.primary};
+      stroke-width: 2;
+    }
+
+    &:hover {
+      path {
+        stroke: ${({ theme }) => theme.colors.secundary};
+      }
     }
   }
 `

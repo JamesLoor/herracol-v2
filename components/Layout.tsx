@@ -10,16 +10,15 @@ import Register from '@components/auth/Register'
 import Login from '@components/auth/Login'
 import ForgotPassword from '@components/auth/ForgotPassword'
 import { closeModal, ModalView, selectUi } from '@features/ui/uiSlice'
-import { selectAuth, verifyAuth } from '@features/auth/authSlice'
 
 const LayoutStyled = styled.div`
   main {
-    padding-top: 115px;
+    padding-top: 121px;
   }
 
   @media (min-width: 1024px) {
     main {
-      padding-top: 63px;
+      padding-top: 71px;
     }
   }
 `

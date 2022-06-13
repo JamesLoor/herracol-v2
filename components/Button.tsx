@@ -9,16 +9,18 @@ const ButtonStyled = styled.button<Props>`
   outline: none;
   border: none;
   cursor: pointer;
-  height: 42px;
-  padding: 10px 25px;
+  height: 40px;
+  padding: 10px 20px;
   transition: background-color .3s;
   box-shadow: 0px 4px 8px 0px rgba(0, 49, 16, 0.35);
-  color: ${({ theme }) => theme.colors.secundary};
+  font-weight: 700;
+  color: ${({ theme }) => theme.colors.primary};
   width: ${({ width }) => width ? `${width}` : 'max-content'};
   background-color: ${({ theme }) => theme.colors.accent};
   line-height: 1em;
   &:hover {
-    background-color: ${({ theme }) => theme.colors.gray};
+    background-color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.secundary};
   }
 `
 

@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 const Heart = ({ ...props }) => {
   return (
     <svg width="30"

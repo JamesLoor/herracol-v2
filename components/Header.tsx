@@ -18,7 +18,7 @@ const HeaderStyled = styled.header`
   width: 100%;
   z-index: ${({ theme }) => theme.positions.header};
   box-shadow: ${({ theme }) => theme.colors.boxShadowBottom};
-  background-color: ${({ theme }) => theme.colors.secundary};
+  background-color: ${({ theme }) => theme.colors.primary};
 
   .header__container {
     display: grid;
@@ -28,7 +28,7 @@ const HeaderStyled = styled.header`
       "input input";
     align-items: center;
     gap: 10px;
-    padding: 10px 0;
+    padding: 14px 0;
   }
 
   .logo {
@@ -43,6 +43,10 @@ const HeaderStyled = styled.header`
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
+  }
+
+  .button__icon path {
+    stroke: ${({ theme }) => theme.colors.secundary};
   }
 
   .searchBar {
@@ -75,18 +79,18 @@ const Header: React.FC = () => {
           />
 
           <div className="button__list">
-            <ButtonIcon Icon={Cart} onClick={() => console.log('Click')} />
-            <ButtonIcon Icon={Heart} onClick={() => console.log('Click')} />
+            <ButtonIcon className="button__icon button__cart" Icon={Cart} onClick={() => console.log('Click')} />
+            <ButtonIcon className="button__icon button__fav" Icon={Heart} onClick={() => console.log('Click')} />
             {isLogged
               ? <div className="user__avatar">
                   0
                 </div>
-              : <ButtonIcon Icon={User} onClick={() => {
+              : <ButtonIcon className="button__icon button__user" Icon={User} onClick={() => {
                   dispatch(openModal())
                   dispatch(setModalView(ModalView.loginView))
                 }} />
             }
-            <ButtonIcon Icon={Menu} className="menu" onClick={() => dispatch(toggleSidebar())} />
+            <ButtonIcon Icon={Menu} className="button__icon menu" onClick={() => dispatch(toggleSidebar())} />
           </div>
         </div>
       </Wrapper>

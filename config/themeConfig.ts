@@ -10,8 +10,8 @@ const positions = {
 
 export const lightTheme = {
   colors: {
-    primary: '#000000',
-    accent: '#091254',
+    primary: '#091254',
+    accent: '#E5CA44',
     secundary: '#FFFFFF',
     stroke: '#BDBDBD',
     gray: '#717171',
@@ -40,7 +40,7 @@ export const darkTheme = {
 export const Title = styled.h1`
   font-size: 32px;
   font-weight: 600;
-  color: ${({ theme }) => theme.colors.accent};
+  color: ${({ theme }) => theme.colors.primary};
 
   @media (min-width: 768px) {
     font-size: 45px;

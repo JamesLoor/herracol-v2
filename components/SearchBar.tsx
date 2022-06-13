@@ -6,9 +6,9 @@ const SearchBarStyled = styled.div`
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 1fr max-content;
-  height: 42px;
-  padding: 10px 12px;
-  border: 1px solid ${({ theme }) => theme.colors.stroke};
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 25px;
   background-color: ${({ theme }) => theme.colors.secundary};
   .search__input {
     width: 100%;

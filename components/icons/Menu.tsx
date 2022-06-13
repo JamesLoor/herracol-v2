@@ -1,5 +1,3 @@
-import * as React from 'react'
-
 const Menu = ({ ...props }) => {
   return (
     <svg
@@ -12,7 +10,7 @@ const Menu = ({ ...props }) => {
     >
       <path
         d="M5 9H25M5 15H25M15 21L25 21"
-        stroke="black"
+        stroke="white"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
