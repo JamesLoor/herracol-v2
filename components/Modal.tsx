@@ -5,7 +5,7 @@ import ButtonIcon from '@components/ButtonIcon'
 import Close from '@components/icons/Close'
 
 const ModalStyled = styled.div`
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -21,7 +21,7 @@ const ModalStyled = styled.div`
   .box__container {
     display: grid;
     width: 100%;
-    min-width: 418px;
+    max-width: 418px;
     height: max-content;
     background-color: ${({ theme }) => theme.colors.secundary};
     position: relative;
@@ -32,6 +32,12 @@ const ModalStyled = styled.div`
     position: absolute;
     top: 25px;
     right: 25px;
+  }
+
+  @media (min-width: 768px) {
+    .box__container {
+      min-width: 418px;
+    }
   }
 `
 

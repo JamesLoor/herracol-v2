@@ -68,7 +68,7 @@ const Login: React.FC = () => {
       .then((res) => {
         if(!res.type.includes('rejected')) {
           action.resetForm()
-          window.location.reload()
+          // window.location.reload()
         }
       })
   }

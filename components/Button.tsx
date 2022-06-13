@@ -10,7 +10,7 @@ const ButtonStyled = styled.button<Props>`
   border: none;
   cursor: pointer;
   height: 42px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   transition: background-color .3s;
   box-shadow: 0px 4px 8px 0px rgba(0, 49, 16, 0.35);
   color: ${({ theme }) => theme.colors.secundary};

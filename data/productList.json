@@ -697,7 +697,8 @@
 		"code": "0150",
 		"id": "7c565ba5-33ee-4ada-a3ab-2669d46485fc",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FOB-506-OCTANE-BOOSTER.jpg?alt=media",
-		"name": "Elevador De Octanaje 12oz"
+		"name": "Elevador De Octanaje 12oz",
+		"featured": true
 	},
 	{
 		"brand": "Abro",
@@ -1039,7 +1040,8 @@
 		"code": "0871",
 		"id": "91a431e4-61aa-4b10-8be7-1894433c8b21",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FTaponesAuditivos.png?alt=media",
-		"name": "Tapones Auditivos"
+		"name": "Tapones Auditivos",
+		"featured": true
 	},
 	{
 		"brand": "Abro",
@@ -1655,7 +1657,8 @@
 		"code": "0820",
 		"id": "0000060",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FGroup199.png?alt=media",
-		"name": "Machetilla Gavilán Bananera 12\""
+		"name": "Machetilla Gavilán Bananera 12\"",
+		"featured": true
 	},
 	{
 		"brand": "Gavilán",
@@ -1718,7 +1721,8 @@
 		"code": "0828",
 		"id": "0360",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2Funknown%20(2).png?alt=media",
-		"name": "Llana Gavilán lisa M. madera 15\" x 5"
+		"name": "Llana Gavilán lisa M. madera 15\" x 5",
+		"new": true
 	},
 	{
 		"brand": "Gavilán",
@@ -1803,7 +1807,8 @@
 		"code": "0043",
 		"id": "0860",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FFumigadora%20Manual%20Bolt%20Agro%20C%20Interna%2020Lt.png?alt=media",
-		"name": "Fumigadora Manual Bolt Agro C interna 20Lt"
+		"name": "Fumigadora Manual Bolt Agro C interna 20Lt",
+		"featured": true
 	},
 	{
 		"brand": "Bolt",
@@ -1813,7 +1818,8 @@
 		"code": "0129",
 		"id": "0960",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FWhatsApp%20Image%202022-01-18%20at%2016.12.16.jpeg?alt=media",
-		"name": "Neblinadora Bolt agro 3.0HP_42CC 20Lt"
+		"name": "Neblinadora Bolt agro 3.0HP_42CC 20Lt",
+		"new": true
 	},
 	{
 		"brand": "Bolt",
@@ -1823,7 +1829,8 @@
 		"code": "0131",
 		"id": "1060",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FNeblinadoraBolt5-5HP.png?alt=media",
-		"name": "Neblinadora Bolt agro 5.5HP_82CC 20Lt"
+		"name": "Neblinadora Bolt agro 5.5HP_82CC 20Lt",
+		"new": true
 	},
 	{
 		"brand": "Bolt",
@@ -1843,7 +1850,8 @@
 		"code": "0132",
 		"id": "1260",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FDesbrozadora%20Bolt%20Agro%202.0HP_52CC.png?alt=media",
-		"name": "Desbrozadora Bolt Agro 2.0HP_52CC"
+		"name": "Desbrozadora Bolt Agro 2.0HP_52CC",
+		"featured": true
 	},
 	{
 		"brand": "Bolt",
@@ -2042,7 +2050,8 @@
 		"links": [
 			"https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/catalogue%2FCatalogo%20Super%20Color_211118_184350_211122_173208%5B552%5D.pdf?alt=media"
 		],
-		"name": "Pinturas spray TEKBOND General 200ml"
+		"name": "Pinturas spray TEKBOND General 200ml",
+		"new": true
 	},
 	{
 		"brand": "Tekbond",
@@ -2077,7 +2086,8 @@
 		"code": "0765",
 		"id": "2160",
 		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FDiscoDesbasteAluminio.png?alt=media",
-		"name": "Disco desbaste aluminio T27-4.1/2 x 1/4 x 7/8\" SUPER BDA620"
+		"name": "Disco desbaste aluminio T27-4.1/2 x 1/4 x 7/8\" SUPER BDA620",
+		"new": true
 	},
 	{
 		"brand": "Norton",

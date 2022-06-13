@@ -10,8 +10,8 @@ import ButtonIcon from '@components/ButtonIcon'
 import Wrapper from '@components/Wrapper'
 import useAppDispatch from '@hooks/useAppDispatch'
 import { ModalView, openModal, setModalView, toggleSidebar } from '@features/ui/uiSlice'
-import { openModalLogin } from '@features/auth/authSlice'
-import Modal from '@components/Modal'
+import useAppSelector from '@hooks/useAppSelector'
+import { selectAuth } from '@features/auth/authSlice'
 
 const HeaderStyled = styled.header`
   position: fixed;
@@ -60,6 +60,7 @@ const HeaderStyled = styled.header`
 
 const Header: React.FC = () => {
   const dispatch = useAppDispatch()
+  const { isLogged } = useAppSelector(selectAuth)
   const id = React.useId()
 
   return (
@@ -76,10 +77,15 @@ const Header: React.FC = () => {
           <div className="button__list">
             <ButtonIcon Icon={Cart} onClick={() => console.log('Click')} />
             <ButtonIcon Icon={Heart} onClick={() => console.log('Click')} />
-            <ButtonIcon Icon={User} onClick={() => {
-              dispatch(openModal())
-              dispatch(setModalView(ModalView.loginView))
-            }} />
+            {isLogged
+              ? <div className="user__avatar">
+                  0
+                </div>
+              : <ButtonIcon Icon={User} onClick={() => {
+                  dispatch(openModal())
+                  dispatch(setModalView(ModalView.loginView))
+                }} />
+            }
             <ButtonIcon Icon={Menu} className="menu" onClick={() => dispatch(toggleSidebar())} />
           </div>
         </div>

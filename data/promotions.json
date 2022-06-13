@@ -1,0 +1,20 @@
+[
+  {
+    "id": "001",
+    "image": "https://i5.walmartimages.com/dfw/4ff9c6c9-7e3d/k2-_9b02ccaf-da08-4364-8da8-0829a83d1c91.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF",
+    "title": "Ahorros geniales",
+    "description": "Find high-tech systems & WiFi-enabled fans at low prices."
+  },
+  {
+    "id": "002",
+    "image": "https://i5.walmartimages.com/dfw/4ff9c6c9-a378/k2-_ed9903e2-2174-4a18-8f9c-2aa9ff13e7f8.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF",
+    "title": "Negocios de propiedad de negros",
+    "description": "Descubre nuevos favoritos de Black Girl Magic, JD's Vegan y más."
+  },
+  {
+    "id": "003",
+    "image": "https://i5.walmartimages.com/dfw/4ff9c6c9-d422/k2-_af1bb26d-448b-4c85-bced-961a36887a37.v1.jpg?odnHeight=444&odnWidth=790&odnBg=FFFFFF",
+    "title": "Haz el 4 de julio por menos",
+    "description": "Party supplies, decor, inflatables & more starting at 97 cents."
+  }
+]

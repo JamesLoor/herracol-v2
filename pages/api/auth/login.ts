@@ -5,13 +5,12 @@ import validateEmail from '@lib/validateEmail'
 import connectDB from '@lib/connectDB'
 import jwt from 'jsonwebtoken'
 import bcrypt from "bcrypt"
-import cookie from "cookie"
 
 type Data = {
   message?: string
   error?: string
   status?: string
-  authToken?: string
+  token?: string
 }
 
 connectDB()
@@ -58,17 +57,7 @@ async function login(req: NextApiRequest, res: NextApiResponse<Data>) {
       email: user.email
     }
     const token = jwt.sign(payload, secret, { expiresIn: '1h' })
-    res
-      .setHeader('Set-Cookie', cookie.serialize('auth', token, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV !== 'development',
-        sameSite: 'strict',
-        maxAge: 60 * 60,
-        path: '/'
-      }))
-      .json({
-        message: '¡Ingreso exitoso!.'
-      })
+    res.json({ message: '¡Ingreso exitoso!.', token })
   } catch(error: any){
       return res.status(error.status || 500).json({message: error.message})
   }

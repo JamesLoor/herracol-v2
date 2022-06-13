@@ -8,13 +8,11 @@ interface authState {
   lastName: string
   email: string
   profilePicture: string
+  isLogged: boolean
   isLoading: boolean
-  isModalLoginOpen: boolean
-  isModalRegisterOpen: boolean
   message: string
   success: boolean
   error: boolean
-  token: string | null
 }
 
 const initialState: authState = {
@@ -22,13 +20,11 @@ const initialState: authState = {
   lastName: "",
   email: "",
   profilePicture: "",
+  isLogged: false,
   isLoading: false,
-  isModalLoginOpen: false,
-  isModalRegisterOpen: false,
   message: "",
   success: false,
   error: false,
-  token: null
 }
 
 export const registerUser = createAsyncThunk(
@@ -49,7 +45,6 @@ export const loginUser = createAsyncThunk(
   async ({ email, password }: LoginUser, { rejectWithValue }) => {
     try {
       const { data } = await authService.login({email, password})
-      console.log(data)
       return data
     } catch (e: any) {
       const { status, data: { message } } = e.response
@@ -58,14 +53,24 @@ export const loginUser = createAsyncThunk(
   }
 )
 
-// export const logout = createAsyncThunk("auth/logout", async () => {
-//   await AuthService.logout()
-// })
-
 const authSlice = createSlice({
   name: "auth",
   initialState,
-  reducers: {},
+  reducers: {
+    verifyAuth: (state) => {
+      state.isLogged = Boolean(window.sessionStorage.getItem('token'))
+    },
+
+    logoutUser: (state) => {
+      state.isLoading = true
+      state.error = false
+      state.success = false
+      state.message = ""
+      state.isLogged = false
+
+      window.sessionStorage.removeItem('token')
+    }
+  },
   extraReducers: (builder) => {
     builder.addCase(registerUser.pending, (state) => {
       state.isLoading = true
@@ -91,25 +96,29 @@ const authSlice = createSlice({
       state.error = false
       state.success = false
       state.message = ""
-      state.token = null
+      state.isLogged = false
     }),
     builder.addCase(loginUser.fulfilled, (state, action: PayloadAction<any>) => {
       state.isLoading = false
       state.error = initialState.error
       state.success = true
       state.message = action.payload.message
-      state.token = action.payload.authToken
+      state.isLogged = true
+
+      window.sessionStorage.setItem('token', action.payload.token)
     }),
     builder.addCase(loginUser.rejected, (state, action: PayloadAction<any>) => {
       state.isLoading = false
       state.error = true
       state.success = false
       state.message = action.payload.message
-      state.token = null
+      state.isLogged = false
+
+      window.sessionStorage.removeItem('token')
     })
   }
 })
 
-// export const {} = authSlice.actions
+export const { logoutUser, verifyAuth } = authSlice.actions
 export const selectAuth = (state: RootState) => state.auth
 export default authSlice.reducer

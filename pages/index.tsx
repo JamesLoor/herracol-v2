@@ -1,25 +1,26 @@
 import * as React from 'react'
 import styled from 'styled-components'
 import type { NextPage } from 'next'
-import Wrapper from '@components/Wrapper'
+import Banner from '@components/Banner'
+import FeaturedProducts from '@components/FeaturedProducts'
+import PromoList from '@components/PromoList'
+import NewProducts from '@components/NewProducts'
 
 const HomeStyled = styled.div`
-  h1 {
-    font-size: 50px;
-    font-weight: bold;
-  }
+
 `
 
 type Props = {
-  token?: string
+
 }
 
 const Home: NextPage<Props> = () => {
   return (
     <HomeStyled>
-      <Wrapper>
-        <h1>Hello</h1>
-      </Wrapper>
+      <Banner />
+      <FeaturedProducts />
+      <PromoList />
+      <NewProducts />
     </HomeStyled>
   )
 }

@@ -10,6 +10,7 @@ import Register from '@components/auth/Register'
 import Login from '@components/auth/Login'
 import ForgotPassword from '@components/auth/ForgotPassword'
 import { closeModal, ModalView, selectUi } from '@features/ui/uiSlice'
+import { selectAuth, verifyAuth } from '@features/auth/authSlice'
 
 const LayoutStyled = styled.div`
   main {
@@ -39,7 +40,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <main>
           {children}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </LayoutStyled>
 
       <Modal
