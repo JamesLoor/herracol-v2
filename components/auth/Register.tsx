@@ -50,7 +50,7 @@ const RegisterStyled = styled.div`
       border: none;
       background-color: transparent;
       cursor: pointer;
-      color: ${({ theme }) => theme.colors.accent};
+      color: ${({ theme }) => theme.colors.primary};
 
       &:hover {
         text-decoration: underline;

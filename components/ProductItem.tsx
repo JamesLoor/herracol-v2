@@ -18,7 +18,7 @@ const ProductItemStyled = styled.article`
   min-height: 350px;
   display: grid;
   grid-template-rows: 1fr max-content;
-  border: 1px solid ${({ theme }) => theme.colors.stroke};
+  box-shadow: 0 1px 2px 1px #00000026;
 
   .product__image {
     position: relative;
