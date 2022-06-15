@@ -11,6 +11,11 @@ const ButtonIconStyled = styled.button`
   justify-content: center;
   align-items: center;
   width: max-content;
+  transition: .3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 `
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {

@@ -7,18 +7,32 @@ const SearchBarStyled = styled.div`
   grid-auto-flow: column;
   grid-auto-columns: 1fr max-content;
   height: 40px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 25px;
   background-color: ${({ theme }) => theme.colors.secundary};
+
   .search__input {
     width: 100%;
     height: 20px;
     border: none;
     outline: none;
     background: transparent;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: ${({ theme }) => theme.colors.gray};
+
     ::placeholder {
       color: ${({ theme }) => theme.colors.gray};
+    }
+  }
+
+  .search__icon {
+    transition: .3s;
+  }
+
+  &:hover {
+    .search__icon {
+      transform: scale(1.4);
     }
   }
 `
