@@ -18,3 +18,12 @@ export declare type LoginUser = {
   email: string,
   password: string
 }
+
+export declare type ProductCategory = {
+  id: string
+  type: string
+  name: string
+  url: string
+  text: string
+  image: string
+}

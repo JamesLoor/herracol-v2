@@ -1,116 +1,146 @@
 [
 	{
-		"id": "categories-001",
-		"type": "todo",
-		"name": "All",
-		"url": "/productos"
-	},
-	{
 		"id": "categories-002",
 		"type": "automotriz",
 		"name": "Automotriz",
-		"url": "/productos/automotriz"
+		"url": "/productos/automotriz",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FDI-502-Diesel-Injector-Cleaner.jpg?alt=media"
 	},
 	{
 		"id": "categories-003",
 		"type": "brochas",
 		"name": "Brochas",
-		"url": "/productos/brochas"
+		"url": "/productos/brochas",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2Fimagen.png?alt=media"
 	},
 	{
 		"id": "categories-004",
 		"type": "cintas",
 		"name": "Cinta",
-		"url": "/productos/cinta"
+		"url": "/productos/cinta",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2F646%20CINTA%20DE%20EMPAQUE%20TRANSPARENTE.jpg?alt=media"
 	},
 	{
 		"id": "categories-005",
 		"type": "cuchillas",
 		"name": "Cuchillas",
-		"url": "/productos/cuchillas"
+		"url": "/productos/cuchillas",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FCuchilla%20picapasto.jpg?alt=media"
 	},
 	{
 		"id": "categories-006",
 		"type": "discos",
 		"name": "Discos",
-		"url": "/productos/discos"
+		"url": "/productos/discos",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FDiscoDeCorteDiamante.png?alt=media"
 	},
 	{
 		"id": "categories-007",
 		"type": "equipo-agricola",
 		"name": "Equipo agrícola",
-		"url": "/productos/equipo-agricola"
+		"url": "/productos/equipo-agricola",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FWhatsApp%20Image%202022-01-18%20at%2016.21.40.jpeg?alt=media"
 	},
 	{
 		"id": "categories-008",
 		"type": "envases",
 		"name": "Envases",
-		"url": "/productos/envases"
+		"url": "/productos/envases",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FWhatsApp%20Image%202022-01-18%20at%2016.09.11.jpeg?alt=media"
 	},
 	{
 		"id": "categories-009",
 		"type": "herramientas",
 		"name": "Herramientas",
-		"url": "/productos/herramientas"
+		"url": "/productos/herramientas",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FMaceta%20de%20caucho.jpg?alt=media"
 	},
 	{
 		"id": "categories-010",
 		"type": "hoces",
 		"name": "Hoces",
-		"url": "/productos/hoces"
+		"url": "/productos/hoces",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FHoz12Pulgadas.png?alt=media"
 	},
 	{
 		"id": "categories-011",
 		"type": "llanas",
 		"name": "Llanas",
-		"url": "/productos/llanas"
+		"url": "/productos/llanas",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FLlana%20dentada%205x5mm.jpg?alt=media"
 	},
 	{
 		"id": "categories-012",
 		"type": "machetes",
 		"name": "Machetes",
-		"url": "/productos/machetes"
+		"url": "/productos/machetes",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FGroup199.png?alt=media"
 	},
 	{
 		"id": "categories-013",
 		"type": "podar",
 		"name": "Podar",
-		"url": "/productos/podar"
+		"url": "/productos/podar",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FTijera%20podadora%209in.jpg?alt=media"
 	},
 	{
 		"id": "categories-014",
 		"type": "palas",
 		"name": "Palas",
-		"url": "/productos/palas"
+		"url": "/productos/palas",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FPala%20Pl%C3%A1stica%20Antichispas.jpg?alt=media"
 	},
 	{
 		"id": "categories-015",
 		"type": "pintura",
 		"name": "Pintura",
-		"url": "/productos/pintura"
+		"url": "/productos/pintura",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FPC318%20PINTURA%20ORO%2018K.jpg?alt=media"
 	},
 	{
 		"id": "categories-016",
 		"type": "seguridad-industrial",
 		"name": "Seguridad industrial",
-		"url": "/productos/seguridad-industrial"
+		"url": "/productos/seguridad-industrial",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2FGafas%20De%20Protecci%C3%B3n%20Negras.png?alt=media"
 	},
 	{
 		"id": "categories-017",
 		"type": "silicona",
 		"name": "Silicona",
-		"url": "/productos/silicona"
+		"url": "/productos/silicona",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2Fimage%2011.png?alt=media"
 	},
 	{
 		"id": "categories-018",
 		"type": "varios",
 		"name": "Varios",
-		"url": "/productos/varios"
+		"url": "/productos/varios",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2Ftijera.png?alt=media"
 	},
 	{
 		"id": "categories-019",
 		"type": "zapapicos",
 		"name": "Zapapicos",
-		"url": "/productos/zapapicos"
+		"url": "/productos/zapapicos",
+		"text": "Todos los modelos",
+		"image": "https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/products%2Fzapapico.png?alt=media"
 	}
 ]
