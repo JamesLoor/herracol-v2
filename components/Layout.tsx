@@ -39,7 +39,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <main>
           {children}
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </LayoutStyled>
 
       <Modal
