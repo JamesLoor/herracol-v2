@@ -8,7 +8,8 @@ const SearchBarStyled = styled.div`
   grid-auto-columns: 1fr max-content;
   height: 40px;
   padding: 10px 25px;
-  border-radius: 25px;
+  border-radius: 5px;
+  border: none;
   background-color: ${({ theme }) => theme.colors.secundary};
 
   .search__input {
@@ -18,7 +19,6 @@ const SearchBarStyled = styled.div`
     outline: none;
     background: transparent;
     font-size: 18px;
-    font-weight: 700;
     color: ${({ theme }) => theme.colors.gray};
 
     ::placeholder {
