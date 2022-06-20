@@ -89,13 +89,25 @@ const Footer: React.FC = () => {
             <h4 className="section__title">Empresa</h4>
             <ul className="section__list">
               <li className="section__item">
-                <Link href="/">Nosotros</Link>
+                <Link href="/nosotros" passHref>
+                  <a>
+                    Nosotros
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">Productos</Link>
+                <Link href="/productos" passHref>
+                  <a>
+                    Productos
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">Catálogo</Link>
+                <Link href="https://firebasestorage.googleapis.com/v0/b/herracol-api-8820d.appspot.com/o/catalogue%2FHerracol%2FCatalogoHerracol2022.pdf?alt=media" passHref>
+                  <a target="_blank">
+                    Catálogo
+                  </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -104,13 +116,25 @@ const Footer: React.FC = () => {
             <h4 className="section__title">Faq</h4>
             <ul className="section__list">
               <li className="section__item">
-                <Link href="/">¿Cómo compro un producto?</Link>
+                <Link href="/" passHref>
+                  <a>
+                    ¿Cómo compro un producto?
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">¿Hay envios a mi ubicación?</Link>
+                <Link href="/" passHref>
+                  <a>
+                    ¿Hay envios a mi ubicación?
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">¿Cómo opino sobre la aplicación?</Link>
+                <Link href="/" passHref>
+                  <a>
+                    ¿Cómo opino sobre la aplicación?
+                  </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -119,13 +143,25 @@ const Footer: React.FC = () => {
             <h4 className="section__title">Contacto</h4>
             <ul className="section__list">
               <li className="section__item">
-                <Link href="/">Km 11 via Daule</Link>
+                <Link href="https://www.google.com/maps?ll=-2.096338,-79.937145&z=17&t=m&hl=es&gl=EC&mapclient=embed&cid=3763735193489915217" passHref>
+                  <a target="_blank">
+                    Via a Daule km 11.5 Bodegas C7 y C41 Parque California 2
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">ventas@herracol.net</Link>
+                <Link href="mailto:ventas@herracol.net" passHref>
+                  <a>
+                    ventas@herracol.net
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">+593 98 324 5586</Link>
+                <Link href="tel:+593983245586" passHref>
+                  <a>
+                    +593 98 324 5586
+                  </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -134,10 +170,18 @@ const Footer: React.FC = () => {
             <h4 className="section__title">Legal</h4>
             <ul className="section__list">
               <li className="section__item">
-                <Link href="/">Política de privacidad</Link>
+                <Link href="/politicas" passHref>
+                  <a>
+                    Política de privacidad
+                  </a>
+                </Link>
               </li>
               <li className="section__item">
-                <Link href="/">Términos y condiciones</Link>
+                <Link href="/terminos" passHref>
+                  <a>
+                    Términos y condiciones
+                  </a>
+                </Link>
               </li>
             </ul>
           </section>
